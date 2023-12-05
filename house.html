@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House Details Page</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <nav id="navBar" class="nav_white">
+    <a href="./house.html">
+      <img class="logo" src="./imgs/reb-logo.png" alt="logo">
+    </a>
+
+    <ul class="nav_links">
+      <li><a class="active" href="#">Popular Places</a> </li>
+      <li><a href="#">Travel Outside</a></li>
+      <li><a href="list.html">Online Packages</a></li>
+    </ul>
+    <a class="register_btn" href="#"> Regiser Now</a>
+    <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+  </nav>
+  <div class="house_details">
+    <div class="house_title">
+      <h1>Wenge House</h1>
+      <div class="row">
+        <div>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span>245 Reviews</span>
+        </div>
+        <div>
+          <p>Location: San Francisco, United State</p>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="gallery_img1"><img src="./imgs/flat2.jpg" alt="img"></div>
+      <div><img src="./imgs/flat1.jpg" alt="img"></div>
+      <div><img src="./imgs/flat3.jpg" alt="img"></div>
+      <div><img src="./imgs/flat4.jpg" alt="img"></div>
+      <div><img src="./imgs/flat2.jpg" alt="img"></div>
+    </div>
+    <div class="small_detalis">
+      <h2>Entire rental unit hosted by Brandon </h2>
+      <p>2 guest &nbsp;&nbsp; 2 beds &nbsp;&nbsp; 1 bthroom</p>
+      <h4>$ 100 / day</h4>
+    </div>
+    <hr class="line">
+    <form class="check_form">
+      <div>
+        <label>Check in</label>
+        <input type="text" placeholder="Add date">
+      </div>
+      <div>
+        <label>Check out</label>
+        <input type="text" placeholder="Add date">
+      </div>
+      <div class="guest_filed">
+        <label>Guest</label>
+        <input type="text" placeholder=" 2 Guest">
+      </div>
+      <button type="submit">Check Availability</button>
+    </form>
+    <div class="details_list">
+      <ul>
+        <li><i class="fa-solid fa-house"></i> Entire Home <span>You will have entire flat for you</span></li>
+        <li> <i class="fa-solid fa-paintbrush"></i> Enhanced Clean <span>This has committed to staybnb's </span>
+        </li>
+        <li><i class="fa-solid fa-location-dot"></i> Entire Home <span>You will have entire flat fcleaning
+            procces.</span></li>
+        <li><i class="fa-solid fa-heart"></i> Great Location <span>90% of recent guest's gave the location a 5 star
+            rating</span></li>
+
+      </ul>
+      <hr class="line">
+      <p class="home_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quibusdam assumenda
+        laboriosam ratione
+        asperiores tenetur voluptate quos minus libero quisquam temporibus? Quo nulla rerum molestias voluptatum fugiat
+        ut nemo recusandae autem magnam maiores sed, earum iusto cum? Unde molestias deleniti illo amet ipsa nulla et
+        blanditiis vitae suscipit, ipsum, beatae nisi eaque error? Minus quasi nulla dolor fugiat consequuntur obcaecati
+      </p>
+      <hr class="line">
+      <div class="map">
+        <h3>Location on map</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8827914109!2d-118.74138278813213!3d34.02003923920248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9C40YTQvtGA0L3QuNGPLCDQodCo0JA!5e0!3m2!1sru!2s!4v1701776822289!5m2!1sru!2s"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <b>San Francisco, California, United States</b>
+        <p>It's like a home way from home</p>
+        <div class="host">
+          <img src="./imgs/keoka.avif" alt="img">
+          <div>
+            <h2>Hosted by Brandom</h2>
+            <p><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>&nbsp;&nbsp; 245 reviews &nbsp;&nbsp; Responce rate 100% &nbsp;&nbsp; Responce time:60 min</p>
+          </div>
+        </div>
+        <a class="contact_host" href="#">Contact Host</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <hr>
+      <p>Copyright 2021, Easy Tutorials</p>
+    </div>
+  </div>
+
+  <script>
+    var navBar = document.getElementById("navBar");
+    function togglebtn() {
+      navBar.classList.toggle("hidmenu")
+    }
+  </script>
+</body>
